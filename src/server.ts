@@ -1,8 +1,8 @@
-import { connectDB } from "./database"; // Importar la función de conexión
+import { connectDB } from "./infrastructure/database"; // Importar la función de conexión
 import 'dotenv/config'
 import express, { Application } from "express";
 import cors from 'cors'
-import indexRoute from './routes'
+import indexRoute from './infrastructure/routes'
 
 class Server {
 
